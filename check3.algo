@@ -1,0 +1,23 @@
+ALGORITHM palidrome 
+VAR
+s:char
+i,j,k : INTEGER;
+n1 : INTEGER := mid - left + 1;
+n2 : INTEGER := right - mid;
+L : ARRAY_OF INTEGER[n1];
+R : ARRAY_OF INTEGER[n2];
+BEGIN
+FOR i FROM 0 TO n-1   DO
+L[i] := arr[left+i];
+END_FOR
+FOR j FROM 0 TO n2-1 DO
+R[j] := arr[mid+1+j];
+END_FOR
+if result 
+then 
+print(f"'{string}' is a palindrome.")
+else 
+print(f"'{string}' is not a palindrome.")
+
+
+END.
